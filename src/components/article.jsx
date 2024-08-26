@@ -28,7 +28,7 @@ const Article = () => {
   return (
     <>
       <article className="flex flex-col flex-1 p-16 text-center gap-4">
-        <h1 className="text-5xl uppercase">
+        <h1 className="text-5xl uppercase flex flex-col">
           {data.h1}
           <span>{data.span}</span>
         </h1>

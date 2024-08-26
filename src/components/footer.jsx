@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       <footer className="text-center bg-gradient-linear-1 text-xs">
-        <p className="attribution">
+        <p className="flex gap-1 justify-center">
           Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
             Frontend Mentor

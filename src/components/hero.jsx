@@ -5,7 +5,10 @@ const Hero = () => {
   const desktop = useMediaQuery({ minWidth: 768 });
   return (
     <>
-      <img src={desktop ? data.heroDesktop : data.heroMobile} />
+      <img
+        className="w-full md:h-full md:object-cover"
+        src={desktop ? data.heroDesktop : data.heroMobile}
+      />
     </>
   );
 };
