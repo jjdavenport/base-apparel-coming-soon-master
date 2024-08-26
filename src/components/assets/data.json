@@ -1,0 +1,10 @@
+{
+  "logo": "./images/logo.svg",
+  "heroMobile": "./images/hero-mobile.jpg",
+  "heroDesktop": "./images/hero-desktop.jpg",
+  "h1": "We're",
+  "span": "coming soon",
+  "p": "Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.",
+  "placeholder": "Email Address",
+  "icon": "./images/icon-arrow.svg"
+}

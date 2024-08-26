@@ -7,14 +7,15 @@ export default {
         custom: ["josefin sans, sans-serif"],
       },
       colors: {
-        "desaturated-red": "hsl(0, 36%, 70%)",
-        "soft-red": "hsl(0, 93%, 68%)",
-        "dark-grayish-red": "hsl(0, 6%, 24%)",
+        desaturatedRed: "hsl(0, 36%, 70%)",
+        softRed: "hsl(0, 93%, 68%)",
+        darkGrayishRed: "hsl(0, 6%, 24%)",
       },
       backgroundImage: {
-        "gradient-linear-1":
+        error: "url('./public/images/icon-error.svg')",
+        gradientLinear1:
           "linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%))",
-        "gradient-linear-2":
+        gradientLinear2:
           "linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%))",
       },
     },
