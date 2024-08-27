@@ -2,12 +2,23 @@ const Footer = () => {
   return (
     <>
       <footer className="text-center bg-gradient-linear-1 text-xs">
-        <p className="flex gap-1 justify-center">
+        <p className="inline text-desaturatedRed font-light">
           Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          <a
+            className="text-black font-semibold pl-1"
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+          >
             Frontend Mentor
           </a>
-          . Coded by <a href="https://github.com/jjdavenport">jjdavenport</a>.
+          . Coded by{" "}
+          <a
+            className="text-black font-semibold"
+            href="https://github.com/jjdavenport"
+          >
+            jjdavenport
+          </a>
+          .
         </p>
       </footer>
     </>
