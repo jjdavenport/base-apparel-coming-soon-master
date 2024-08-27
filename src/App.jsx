@@ -10,23 +10,23 @@ function App() {
     <>
       {desktop ? (
         <>
-          <main className="flex w-full min-h-screen text-base font-custom">
-            <section className="flex flex-col justify-between w-7/12 min-h-screen bg-gradientLinear1">
-              <div className="flex flex-col flex-1 md:p-14 xl:p-20 gap-14">
+          <main className="flex min-h-screen w-full font-custom text-base">
+            <section className="flex min-h-screen w-7/12 flex-col justify-between bg-gradientLinear1">
+              <div className="flex flex-1 flex-col gap-14 md:p-14 xl:p-20">
                 <Header />
                 <Article />
               </div>
               <Footer />
             </section>
-            <section className="flex flex-1 w-5/12 min-h-screen">
+            <section className="flex min-h-screen w-5/12 flex-1">
               <Hero />
             </section>
           </main>
         </>
       ) : (
         <>
-          <main className="flex flex-col justify-between w-full min-h-screen text-base font-custom bg-gradientLinear1">
-            <section className="flex flex-col flex-1">
+          <main className="flex min-h-screen w-full flex-col justify-between bg-gradientLinear1 font-custom text-base">
+            <section className="flex flex-1 flex-col">
               <Header />
               <Hero />
               <Article />

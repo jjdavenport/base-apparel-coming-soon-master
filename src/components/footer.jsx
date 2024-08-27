@@ -1,11 +1,11 @@
 const Footer = () => {
   return (
     <>
-      <footer className="text-center bg-gradient-linear-1 text-xs">
-        <p className="inline text-desaturatedRed font-light">
+      <footer className="bg-gradient-linear-1 text-center text-xs">
+        <p className="inline font-light text-desaturatedRed">
           Challenge by
           <a
-            className="text-black font-semibold pl-1"
+            className="pl-1 font-semibold text-black"
             href="https://www.frontendmentor.io?ref=challenge"
             target="_blank"
           >
@@ -13,7 +13,7 @@ const Footer = () => {
           </a>
           . Coded by{" "}
           <a
-            className="text-black font-semibold"
+            className="font-semibold text-black"
             href="https://github.com/jjdavenport"
           >
             jjdavenport
